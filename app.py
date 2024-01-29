@@ -92,7 +92,7 @@ def getStock():
     })
 
 
-@app.route('/')
+@app.route('/stock/privacy-policy')
 def privacy():
     return """
 <!DOCTYPE html>
